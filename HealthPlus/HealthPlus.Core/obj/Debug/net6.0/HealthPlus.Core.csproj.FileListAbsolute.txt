@@ -1,0 +1,12 @@
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\bin\Debug\net6.0\HealthPlus.Core.deps.json
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\bin\Debug\net6.0\HealthPlus.Core.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\bin\Debug\net6.0\HealthPlus.Core.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.csproj.AssemblyReference.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.AssemblyInfoInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.AssemblyInfo.cs
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.csproj.CoreCompileInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\refint\HealthPlus.Core.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\HealthPlus.Core.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Core\obj\Debug\net6.0\ref\HealthPlus.Core.dll

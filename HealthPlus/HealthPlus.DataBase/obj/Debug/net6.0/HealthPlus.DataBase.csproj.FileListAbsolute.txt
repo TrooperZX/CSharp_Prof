@@ -1,0 +1,17 @@
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.DataBase.deps.json
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.DataBase.runtimeconfig.json
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.DataBase.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.DataBase.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.csproj.AssemblyReference.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.AssemblyInfoInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.AssemblyInfo.cs
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\refint\HealthPlus.DataBase.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.genruntimeconfig.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\ref\HealthPlus.DataBase.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.Core.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\bin\Debug\net6.0\HealthPlus.Core.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.DataBase\obj\Debug\net6.0\HealthPlus.DataBase.csproj.CopyComplete

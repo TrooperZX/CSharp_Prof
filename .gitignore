@@ -6,3 +6,5 @@
 *.json
 *.sqlite
 /.vs/CSharp_Prof/v17
+/HealthPlus/Servicies
+/HealthPlus/.vs

@@ -1,0 +1,17 @@
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.Data.Abstractions.deps.json
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.Data.Abstractions.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.Data.Abstractions.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.AssemblyInfo.cs
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\refint\HealthPlus.Data.Abstractions.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\ref\HealthPlus.Data.Abstractions.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.Core.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.DataBase.dll
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.DataBase.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\bin\Debug\net6.0\HealthPlus.Core.pdb
+C:\Users\Troop\Desktop\HealthPlusApp\HealthPlus\HealthPlus.Data.Abstractions\obj\Debug\net6.0\HealthPlus.Data.Abstractions.csproj.CopyComplete

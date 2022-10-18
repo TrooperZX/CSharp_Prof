@@ -1,0 +1,18 @@
+﻿@model UserRoleModel
+@{
+    ViewData["Title"] = "Create new role";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>role create page</p>
+    @using (Html.BeginForm("Create","UserRole",FormMethod.Post))
+    {
+        <div>
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name)
+        </div>
+        <br/>
+        <button>Submit</button>
+    }
+</div>
