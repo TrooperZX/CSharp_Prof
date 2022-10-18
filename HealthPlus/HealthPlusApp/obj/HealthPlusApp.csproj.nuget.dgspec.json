@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlusApp\\HealthPlusApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj",
+        "projectName": "HealthPlus.Core",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj",
+        "projectName": "HealthPlus.Data.Abstractions",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj",
+        "projectName": "HealthPlus.Data.Repositories",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj",
+        "projectName": "HealthPlus.DataBase",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlusApp\\HealthPlusApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlusApp\\HealthPlusApp.csproj",
+        "projectName": "HealthPlusApp",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlusApp\\HealthPlusApp.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlusApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\HealthPlus.Business.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\HealthPlus.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\HealthPlus.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\HealthPlus.Business.csproj",
+        "projectName": "HealthPlus.Business",
+        "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\HealthPlus.Business.csproj",
+        "packagesPath": "C:\\Users\\Troop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\Servicies\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Troop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj"
+              },
+              "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj": {
+                "projectPath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OkRG4W7Ig+ujaGVZlwuxVnqXXhg9MiM95zDg7yP3N7Ngckmz+S+nE0q1ixRNXBpfIi39b6tdAaql13eam2zMLA==",
+  "dgSpecHash": "ms+EsFgKa44bY07kvekbTEes0NKoE5I99Hr3WYxs4YjESdv1Bk5Chr/HE4zk+eEa5JamH6bxpZlJUP1u4mhp2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Troop\\Desktop\\HealthPlusApp\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Repositories\\HealthPlus.Data.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

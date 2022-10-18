@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TgjfF591ZoARi5Vi939bHqjkcSEn1e1mX6uqZZpumZgODfGqRB2p/5HY2MJ7t1pkHtd916S3PMD0yLNpgTk4nA==",
+  "dgSpecHash": "l7ga2/S0ff2B1GG4J97oaa/2yIsd77wKelnVaCkaC9pYtdsPHhL2rz8IZHJpNPcarbtZ45r8yFQ1DP/idRQBAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Troop\\Desktop\\HealthPlusApp\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj",
+  "projectFilePath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Data.Abstractions\\HealthPlus.Data.Abstractions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

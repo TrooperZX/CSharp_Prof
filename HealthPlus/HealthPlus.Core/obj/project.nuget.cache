@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9hi//VnsfY0gXo/X7FjAfdFnJ27FJ3ujqTCKptFIrg5MLtgR864HAKlESl64iD4wPjI1kpKaskrwS2ex7FC+aQ==",
+  "dgSpecHash": "Lae0OUr5cGmSor/afBVJ/en1OkU36Mg5twdW7xOKFjMJHXZsauXrtbbTMLg3gaM1Yg7ULcL/KmiiQSxkfQ4a/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Troop\\Desktop\\HealthPlusApp\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj",
+  "projectFilePath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.Core\\HealthPlus.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

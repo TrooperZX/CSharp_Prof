@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVIY1d9hZGMRkUprGmRAqXrn5AhSiS1H/e65QkZ0sqhEE22AqbkOIP7nfE0Q2YnjRqFrE1HSYdNactYGyusy3g==",
+  "dgSpecHash": "f8maCTvzrt2qaOt82uLiEhcVivQtcUL5KOJjhx+mvpZ4LgeG9PX6diUIUxQdyL0ElENF02EI0vTK7+jvNmqqQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Troop\\Desktop\\HealthPlusApp\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj",
+  "projectFilePath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.DataBase\\HealthPlus.DataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Troop\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
