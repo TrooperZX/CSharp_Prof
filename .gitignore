@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/CSharp_Prof/FileContentIndex
+*.json
+*.sqlite
+/.vs/CSharp_Prof/v17
