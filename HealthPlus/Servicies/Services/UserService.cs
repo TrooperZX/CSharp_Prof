@@ -28,6 +28,11 @@ namespace HealthPlus.Business.Services
             return await _unitOfWork.Users.Get().AnyAsync(user => user.Id.Equals(userId));
         }
 
+        public async Task<bool> IsEmailAllreadyExists(string email)
+        {
+            return await _unitOfWork.Users.Get().AnyAsync(user => user.Email.Equals(email));
+        }
+
         public async Task<bool> CheckUserPassword(string email, string password)
         {
             var dbPasswordHash = (await _unitOfWork.Users
@@ -52,7 +57,6 @@ namespace HealthPlus.Business.Services
         {
             var user = _mapper.Map<User>(dto);
 
-            //can be refactored
             user.PasswordHash = CreateMd5(dto.PasswordHash);
 
             await _unitOfWork.Users.AddAsync(user);

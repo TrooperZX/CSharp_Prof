@@ -9,17 +9,15 @@ namespace HealthPlus.Core.Abstractions
 {
     public interface IDocAppointmentService
     {
-        Task<List<DocAppointmentDto>> GetDocAppointmentByPageNumberAndPageSizeAsync
-        (int pageNumber, int pageSize);
+        Task<int> CreateDocAppointmentAsync(DocAppointmentDto dto);
 
-        Task<List<DocAppointmentDto>> GetNewDocAppointmentsFromAsync();
+        Task<List<DocAppointmentDto>> GetDocAppointmentByPageNumberPageSizeAndUserIdAsync
+        (int pageNumber, int pageSize, Guid id);
 
         Task<DocAppointmentDto> GetDocAppointmentByIdAsync(Guid id);
 
-        Task<int> CreateArticleAsync(DocAppointmentDto dto);
+        Task<int> UpdateDocAppointmentAsync(Guid id, DocAppointmentDto? patchList);
 
-        Task<int> DeleteArticleByIdAsync(Guid id);
-
-        Task Do();
+        Task DeleteDocAppointmentById(Guid id);
     }
 }

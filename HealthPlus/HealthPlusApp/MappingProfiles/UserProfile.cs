@@ -3,24 +3,6 @@ using HealthPlus.Core.DataTransferObjects;
 using HealthPlusApp.Models;
 using AutoMapper;
 
-
-//db
-//public Guid Id { get; set; }
-//public string Email { get; set; }
-//public string PasswordHash { get; set; }
-//public DateTime RegistrationDate { get; set; }
-//public Guid RoleId { get; set; }
-//public UserRole Role { get; set; }
-
-//Core dto
-
-
-//public Guid RoleId { get; set; }
-//public string RoleName { get; set; }
-
-
-
-
 namespace HealthPlusApp.MappingProfiles
 {
     public class UserProfile : Profile
@@ -48,22 +30,18 @@ namespace HealthPlusApp.MappingProfiles
                 //role id
                 .ForMember(dto => dto.RoleId,
                 opt
-                    => opt.MapFrom(entity => entity.RoleId))
-                //role name
-                .ForMember(dto => dto.RoleName,
-                opt
-                    => opt.MapFrom(entity => entity.Role));
+                    => opt.MapFrom(entity => entity.RoleId));
 
             //to db
             CreateMap<UserDto, User>()
                 //id
                 .ForMember(entity => entity.Id,
                     opt
-                        => opt.MapFrom(dto => Guid.NewGuid()))
+                        => opt.MapFrom(dto => dto.Id))
                 //registration date
                 .ForMember(entity => entity.RegistrationDate,
                     opt
-                        => opt.MapFrom(dto => DateTime.Now))
+                        => opt.MapFrom(dto => dto.RegistrationDate))
                 //email
                 .ForMember(entity => entity.Email,
                     opt
@@ -75,11 +53,7 @@ namespace HealthPlusApp.MappingProfiles
                 //role id
                 .ForMember(entity => entity.RoleId,
                     opt
-                        => opt.MapFrom(dto => dto.RoleId))
-                //role name
-                .ForMember(entity => entity.Role,
-                    opt
-                        => opt.MapFrom(dto => dto.RoleName));
+                        => opt.MapFrom(dto => dto.RoleId));
 
 
             CreateMap<RegisterModel, UserDto>()
@@ -92,6 +66,7 @@ namespace HealthPlusApp.MappingProfiles
 
             CreateMap<LoginModel, UserDto>();
 
+            CreateMap<UserDto, UserDataModel>();
         }
     }
 }

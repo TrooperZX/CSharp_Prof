@@ -61,8 +61,9 @@ namespace HealthPlus.Data.Repositories
             var model = await DbSet.FirstOrDefaultAsync(entity => entity.Id.Equals(id));
             var nameValuePropertiesPairs = patchData
                 .ToDictionary(
-                patchModel => patchModel.PropertyName,
-                patchModel => patchModel.PropertyValue);
+                    patchModel => patchModel.PropertyName,
+                    patchModel => patchModel.PropertyValue);
+
             var dbEntityEntry = Database.Entry(model);
             dbEntityEntry.CurrentValues.SetValues(nameValuePropertiesPairs);
             dbEntityEntry.State = EntityState.Modified;

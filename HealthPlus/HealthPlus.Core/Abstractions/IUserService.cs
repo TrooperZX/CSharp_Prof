@@ -9,6 +9,6 @@ namespace HealthPlus.Core.Abstractions
         Task<bool> CheckUserPassword(Guid userId, string password);
         Task<int> RegisterUser(UserDto dto);
         Task<UserDto> GetUserByEmailAsync(string email);
-
+        Task<bool> IsEmailAllreadyExists(string email);
     }
 }

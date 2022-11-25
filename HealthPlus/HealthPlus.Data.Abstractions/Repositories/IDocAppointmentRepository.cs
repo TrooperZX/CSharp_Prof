@@ -6,13 +6,11 @@ namespace HealthPlus.Data.Abstractions.Repositories
     {
         public Task<DocAppointment?> GetDocAppointmentByIdAsync(Guid id);
 
-        public IQueryable<DocAppointment> GetDocAppointmentsAsQueryable();
-
 
         public Task<List<DocAppointment?>> GetAllDocAppointmentsAsync();
 
 
-        public Task AddDocAppointmentAsync(DocAppointment docAppointment);
+        public Task CreateDocAppointmentAsync(DocAppointment docAppointment);
 
 
         public Task AddDocAppointmentsAsync(IEnumerable<DocAppointment> docAppointment);

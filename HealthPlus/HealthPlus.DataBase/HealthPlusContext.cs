@@ -12,7 +12,7 @@ namespace HealthPlus.DataBase
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<Vaccination> Vaccinations { get; set; }
         public DbSet<Vaccine> Vaccines { get; set; }
-
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
         public HealthPlusContext(DbContextOptions<HealthPlusContext> options) 
             : base(options)
         {

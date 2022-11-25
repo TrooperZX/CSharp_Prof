@@ -7,8 +7,6 @@ using HealthPlus.Data.Abstractions.Repositories;
 using HealthPlus.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Routing.Constraints;
-using Microsoft.AspNetCore.Http;
 using Serilog;
 using Serilog.Events;
 
@@ -33,10 +31,16 @@ namespace HealthPlusApp
                 optionsBuilder => optionsBuilder.UseSqlServer(connectionString));
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped<IUserRoleService, UserRoleService>();
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped<IRepository<UserRole>, Repository<UserRole>>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IDocAppointmentService, DocAppointmentService>();
+            builder.Services.AddScoped<IRepository<UserRole>, Repository<UserRole>>();
+            builder.Services.AddScoped<IRepository<DocAppointment>, Repository<DocAppointment>>();
+            builder.Services.AddScoped<IRepository<Medication>, Repository<Medication>>();
+            builder.Services.AddScoped<IRepository<Prescription>, Repository<Prescription>>();
+            builder.Services.AddScoped<IRepository<Vaccine>, Repository<Vaccine>>();
+            builder.Services.AddScoped<IRepository<Vaccination>, Repository<Vaccination>>();
             builder.Services.AddScoped<IRepository<User>, Repository<User>>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             var app = builder.Build();
 
             //// Configure the HTTP request pipeline.

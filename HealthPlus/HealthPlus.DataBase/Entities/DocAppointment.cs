@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthPlus.DataBase.Entities
 {
-    public class DocAppointment
+    public class DocAppointment : IBaseEntity
     {
         public Guid Id { get; set; }
         public Guid UserId { get; set; }

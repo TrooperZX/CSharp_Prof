@@ -3,21 +3,6 @@ using HealthPlus.Core.DataTransferObjects;
 using HealthPlusApp.Models;
 using AutoMapper;
 
-//db
-//public Guid Id { get; set; }
-//public Guid UserId { get; set; }
-//public string Specialization { get; set; }
-//public string? Note { get; set; }
-//public DateTime AppointmentDate { get; set; }
-
-
-//dto
-//public Guid Id { get; set; }
-//public Guid UserId { get; set; }
-//public string Specialization { get; set; }
-//public string? Note { get; set; }
-//public DateTime AppointmentDate { get; set; }
-
 namespace HealthPlusApp.MappingProfiles
 {
     public class DocAppointmentProfile : Profile
@@ -52,7 +37,7 @@ namespace HealthPlusApp.MappingProfiles
                 //id
                 .ForMember(entity => entity.Id,
                     opt
-                        => opt.MapFrom(dto => Guid.NewGuid()))
+                        => opt.MapFrom(dto => dto.Id))
                 //userId
                 .ForMember(entity => entity.UserId,
                     opt
@@ -70,7 +55,7 @@ namespace HealthPlusApp.MappingProfiles
                     opt
                         => opt.MapFrom(dto => dto.AppointmentDate));
 
-            //CreateMap<DocAppointmentDto, DocAppointmentModel>().ReverseMap();
+            CreateMap<DocAppointmentDto, DocAppointmentModel>().ReverseMap();
         }
     }
 }

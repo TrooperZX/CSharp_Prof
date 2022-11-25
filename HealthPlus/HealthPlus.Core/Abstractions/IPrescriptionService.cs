@@ -9,5 +9,15 @@ namespace HealthPlus.Core.Abstractions
 {
     public interface IPrescriptionService
     {
+        Task<int> CreatePrescriptionAsync(PrescriptionDto dto);
+
+        Task<List<PrescriptionDto>> GetPrescriptionByPageNumberAndPageSizeAsync
+        (int pageNumber, int pageSize);
+
+        Task<PrescriptionDto> GetPrescriptionByIdAsync(Guid id);
+
+        Task<int> UpdatePrescriptionAsync(Guid id, PrescriptionDto? dto);
+
+        Task DeletePrescriptionAsync(Guid id);
     }
 }
