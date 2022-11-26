@@ -1,0 +1,17 @@
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.Data.CQS.deps.json
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.Data.CQS.dll
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.Data.CQS.pdb
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.Core.dll
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.DataBase.dll
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.Core.pdb
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\bin\Debug\net6.0\HealthPlus.DataBase.pdb
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.csproj.AssemblyReference.cache
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.AssemblyInfoInputs.cache
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.AssemblyInfo.cs
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.csproj.CoreCompileInputs.cache
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.csproj.CopyComplete
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.dll
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\refint\HealthPlus.Data.CQS.dll
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\HealthPlus.Data.CQS.pdb
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlus.Data.CQS\obj\Debug\net6.0\ref\HealthPlus.Data.CQS.dll

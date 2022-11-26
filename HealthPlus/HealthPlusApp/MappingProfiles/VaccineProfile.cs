@@ -36,13 +36,15 @@ namespace HealthPlusApp.MappingProfiles
             CreateMap<VaccineDto, Vaccine>()
                 .ForMember(entity => entity.Id,
                     opt
-                        => opt.MapFrom(dto => Guid.NewGuid()))
+                        => opt.MapFrom(dto => dto.Id))
                 .ForMember(entity => entity.Type,
                     opt
                         => opt.MapFrom(dto =>dto.Type))
                 .ForMember(entity => entity.Description,
                     opt
                         => opt.MapFrom(dto => dto.Description));
+
+            CreateMap<VaccineDto, VaccineModel>().ReverseMap();
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿@model DocAppointmentModel
+@{
+    ViewData["Title"] = "Edit existing appointment";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Doc Appointment edition page</p>
+    <form method="post">
+        <div>
+            <div>
+                <label for="Spec">Specialization:</label>
+                <input type="text" id="Spec" name="Specialization" value="@Html.DisplayFor(modelItem => Model.Specialization)">
+            </div>
+            <div>
+                <label for="Note">Note:</label>
+                <textarea id="Note" name="Note">@Html.DisplayFor(modelItem => Model.Note)</textarea>
+            </div>
+            <div>
+                <label for="AppointmentDate">Appointment Date:</label>
+                <input type="datetime-local"min="2022-12-31T00:00" max="2099-12-31T00:00" id="AppointmentDate" name="AppointmentDate" initial="@Html.DisplayFor(modelItem => Model.AppointmentDate)">
+            </div>
+            <button>Submit</button>
+        </div>
+    </form>
+</div>

@@ -17,5 +17,6 @@ namespace HealthPlus.DataBase.Entities
         public List<DocAppointment> DocAppointments { get; set; }
         public List<Vaccination> Vaccinations { get; set; }
         public List<Prescription> Prescriptions { get; set; }
+        public List<RefreshToken> RefreshTokens { get; set; }
     }
 }

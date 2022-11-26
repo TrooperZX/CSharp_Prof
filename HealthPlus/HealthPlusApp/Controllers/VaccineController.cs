@@ -38,8 +38,7 @@ namespace HealthPlusApp.Controllers
             {
                 if (model != null)
                 {
-                    //id не нужен можно запилить его в маппинге
-                   // model.Id = Guid.NewGuid();
+                    model.Id = Guid.NewGuid();
                     var dto = _mapper.Map<VaccineDto>(model);
                     var result = await _vaccineService.CreateVaccineAsync(dto);
                     return RedirectToAction("UserRole", "Index");

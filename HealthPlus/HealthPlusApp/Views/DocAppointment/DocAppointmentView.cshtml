@@ -1,0 +1,33 @@
+﻿@model DocAppointmentDto
+<style>
+    ul.hr {
+    }
+    ul.hr li {
+        display: inline;
+    }
+</style>
+<div class="">
+    <ul class="hr">
+        <li>
+            @Html.DisplayFor(modelItem => Model.Specialization)
+        </li>
+        <li>
+            @Html.DisplayFor(modelItem => Model.Note)
+        </li>
+        <li>
+            @Html.DisplayFor(modelItem => Model.AppointmentDate)
+        </li>
+        <li>
+            <form asp-controller="DocAppointment" asp-action="Delete" method="get" >
+                @Html.HiddenFor((modelItem => Model.Id))
+                <button>Delete</button>
+            </form>
+        </li>
+        <li>
+            <form asp-controller="DocAppointment" asp-action="Edit" method="get" >
+                @Html.HiddenFor((modelItem => Model.Id))
+                <button>Edit</button>
+            </form>
+        </li>
+    </ul>
+</div>

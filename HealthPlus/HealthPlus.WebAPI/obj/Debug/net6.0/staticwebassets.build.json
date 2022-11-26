@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UWYoYWUohI36cMmgRJILqX91C9V9JN0lpGMO5e0Zh5k=",
+  "Source": "HealthPlus.WebAPI",
+  "BasePath": "_content/HealthPlus.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -35,7 +35,7 @@ namespace HealthPlusApp.Controllers
                 var docAppointments = await _docAppointmentService
                     .GetDocAppointmentByPageNumberPageSizeAndUserIdAsync(page, _pageSize, currentUser.Id);
 
-                DocAppointmentsList docAppointmentsList = new DocAppointmentsList();
+                DocAppointmentsListModel docAppointmentsList = new DocAppointmentsListModel();
                 docAppointmentsList.DocAppointments = docAppointments;
                 if (docAppointmentsList.DocAppointments.Any() || !docAppointmentsList.DocAppointments.Any())
                 {
