@@ -7,8 +7,7 @@ using HealthPlus.Data.Abstractions.Repositories;
 using HealthPlus.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Serilog;
-using Serilog.Events;
+using MediatR;
 
 namespace HealthPlusApp
 {
@@ -30,9 +29,23 @@ namespace HealthPlusApp
             builder.Services.AddDbContext<HealthPlusContext>(
                 optionsBuilder => optionsBuilder.UseSqlServer(connectionString));
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            builder.Services.AddScoped<IDocAppointmentRepository, DocAppointmentRepository>();
+            builder.Services.AddScoped<IVaccineRepository, VaccineRepository>();
+            builder.Services.AddScoped<IMedicationRepository, MedicationRepository>();
+            builder.Services.AddScoped<IVaccinationRepository, VaccinationRepository>();
+            builder.Services.AddScoped<IPrescriptionRepository, PrescriptionRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             builder.Services.AddScoped<IUserRoleService, UserRoleService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IDocAppointmentService, DocAppointmentService>();
+            builder.Services.AddScoped<IVaccineService, VaccineService>();
+            builder.Services.AddScoped<IVaccinationService, VaccinationService>();
+            builder.Services.AddScoped<IMedicationService, MedicationService>();
+            builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
+            builder.Services.AddMediatR(typeof(IStartup).GetType().Assembly);
+
             builder.Services.AddScoped<IRepository<UserRole>, Repository<UserRole>>();
             builder.Services.AddScoped<IRepository<DocAppointment>, Repository<DocAppointment>>();
             builder.Services.AddScoped<IRepository<Medication>, Repository<Medication>>();
@@ -40,7 +53,7 @@ namespace HealthPlusApp
             builder.Services.AddScoped<IRepository<Vaccine>, Repository<Vaccine>>();
             builder.Services.AddScoped<IRepository<Vaccination>, Repository<Vaccination>>();
             builder.Services.AddScoped<IRepository<User>, Repository<User>>();
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             var app = builder.Build();
 
             //// Configure the HTTP request pipeline.

@@ -45,7 +45,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("DocAppointments");
+                    b.ToTable("DocAppointments", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.Medication", b =>
@@ -67,7 +67,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Meds");
+                    b.ToTable("Meds", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.Prescription", b =>
@@ -101,7 +101,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Prescriptions");
+                    b.ToTable("Prescriptions", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.RefreshToken", b =>
@@ -120,7 +120,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("RefreshTokens");
+                    b.ToTable("RefreshTokens", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.User", b =>
@@ -147,7 +147,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.UserRole", b =>
@@ -162,7 +162,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserRoles");
+                    b.ToTable("UserRoles", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.Vaccination", b =>
@@ -193,7 +193,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Vaccinations");
+                    b.ToTable("Vaccinations", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.Vaccine", b =>
@@ -212,7 +212,7 @@ namespace HealthPlus.DataBase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Vaccines");
+                    b.ToTable("Vaccines", (string)null);
                 });
 
             modelBuilder.Entity("HealthPlus.DataBase.Entities.DocAppointment", b =>

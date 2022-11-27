@@ -11,20 +11,14 @@ namespace HealthPlus.Data.Abstractions.Repositories
 {
     public interface IPrescriptionRepository
     {
-        //CREATE
-        Task AddAsync(Prescription entity);
+        public Task CreatePrescriptionAsync(Prescription prescription);
 
-        //READ
-        Task<Prescription?> GetPrescriptionByIdAsync(Guid id);
-        Task<List<Prescription?>> GetAllAsync();
-        IQueryable<Prescription> FindBy(Expression<Func<Prescription, bool>> searchExpression,
-    params Expression<Func<Prescription, object>>[] includes);
+        public Task<Prescription?> GetPrescriptionByIdAsync(Guid id);
 
-        //UPDATE
-        void Update(Prescription entity);
-        Task PatchAsync(Guid id, List<PatchModel> patchData);
+        public Task<List<Prescription?>> GetAllPrescriptionsByUserIdAsync(Guid id);
 
-        //DELETE
-        void Remove(Prescription entity);
+        public Task PatchPrescriptionAsync(Guid id, Prescription prescription);
+
+        public Task RemovePrescriptionAsync(Prescription prescription);
     }
 }

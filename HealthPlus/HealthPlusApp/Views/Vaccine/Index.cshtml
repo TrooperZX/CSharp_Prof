@@ -1,0 +1,25 @@
+﻿<div id="myDropdown" class="dropdown-content">
+    <select class="js-select2" name="city" placeholder="Выберите город">
+		<option></option>
+		<option>Абаза</option>
+		<option>Абакан</option>	
+		<option>Абдулино</option>	
+		<option>Абинск</option>	
+		<option>Агидель</option>	
+	</select>
+ 
+	<link rel="stylesheet" href="/select2/dist/css/select2.min.css">
+	<script src="/jquery.min.js"></script>
+	<script src="/select2/dist/js/select2.min.js"></script>
+	<script src="/select2/dist/js/i18n/ru.js"></script>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$('.js-select2').select2({
+			placeholder: "Выберите город",
+			maximumSelectionLength: 2,
+			language: "ru"
+		});
+	});
+</script>

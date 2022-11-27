@@ -27,24 +27,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyTG9naW5QcmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/AdminPanel/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/AdminPanel/Vaccine/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxWYWNjaW5lXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/AdminPanel/Vaccine/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxWYWNjaW5lXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/AdminPanel/Vaccine/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxWYWNjaW5lXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/AdminPanel/Vaccine/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxWYWNjaW5lXEluZGV4LmNzaHRtbA==
+[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/DocAppointment/Create.cshtml]
@@ -105,6 +89,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Vaccination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Vaccine/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Vaccine/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Vaccine/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/Vaccine/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Troop/source/repos/CSharp_Prof/HealthPlus/HealthPlusApp/Views/_ViewImports.cshtml]

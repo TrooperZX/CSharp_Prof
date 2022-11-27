@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DH09CjbD03q3Gou+1/cUBQ7XbMiIShTkvFyWuEBMdD9B2l0U4tDzuj+S7hY0UPmA6L57Efv4alOEIHC068oclw==",
+  "dgSpecHash": "08SjISZnSLzATVd+/ZEqE40e+gbyG6Vylc3krgQP/bqkJpKItI5vWCsLoia8YqqSyZQam6teC9gm0LDHr8XP2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Troop\\source\\repos\\CSharp_Prof\\HealthPlus\\HealthPlus.WebAPI\\HealthPlus.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Troop\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\Troop\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
@@ -46,6 +47,7 @@
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Troop\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\serilog.aspnetcore\\6.0.1\\serilog.aspnetcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Troop\\.nuget\\packages\\serilog.extensions.hosting\\5.0.1\\serilog.extensions.hosting.5.0.1.nupkg.sha512",

@@ -89,7 +89,7 @@ namespace HealthPlusApp.Controllers
             }
         }
 
-        // user request doc appointment for editing
+        // user request doc appointment data for editing
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)
@@ -110,7 +110,7 @@ namespace HealthPlusApp.Controllers
             return BadRequest();
         }
 
-        // user send doc appointment for editing
+        // user send doc appointment data for editing
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> Edit(DocAppointmentModel model)

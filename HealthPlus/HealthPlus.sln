@@ -44,12 +44,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthPlus.WebAPI", "Health
 		{F509192A-976D-4F01-B5A7-5BDE1E57BDB4} = {F509192A-976D-4F01-B5A7-5BDE1E57BDB4}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPlus.Data.CQS", "HealthPlus.Data.CQS\HealthPlus.Data.CQS.csproj", "{7F745626-DEBE-414C-BA01-F586725E6C33}"
-	ProjectSection(ProjectDependencies) = postProject
-		{57CAC445-7883-4ECE-B12D-5CC5222DD2FC} = {57CAC445-7883-4ECE-B12D-5CC5222DD2FC}
-		{8F4FCECF-E4DB-45FB-9556-064CFFFC5F9B} = {8F4FCECF-E4DB-45FB-9556-064CFFFC5F9B}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,10 +78,6 @@ Global
 		{292F7A95-FEF8-4BD7-A7AF-667EDA286A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{292F7A95-FEF8-4BD7-A7AF-667EDA286A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{292F7A95-FEF8-4BD7-A7AF-667EDA286A77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F745626-DEBE-414C-BA01-F586725E6C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F745626-DEBE-414C-BA01-F586725E6C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F745626-DEBE-414C-BA01-F586725E6C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F745626-DEBE-414C-BA01-F586725E6C33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

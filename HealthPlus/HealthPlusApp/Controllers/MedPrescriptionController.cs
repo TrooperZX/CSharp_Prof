@@ -12,7 +12,7 @@ namespace HealthPlusApp.Controllers
 {
     public class MedPrescriptionController : Controller
     {
-        [Authorize] // требование авторизации
+        [Authorize]
         public IActionResult Index()
         {
             return View();

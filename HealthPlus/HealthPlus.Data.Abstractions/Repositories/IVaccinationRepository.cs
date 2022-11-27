@@ -11,20 +11,15 @@ namespace HealthPlus.Data.Abstractions.Repositories
 {
     public interface IVaccinationRepository
     {
-        //CREATE
-        Task AddAsync(Vaccination entity);
+        public Task CreateVaccinationAsync(Vaccination vaccination);
 
-        //READ
-        Task<Vaccination?> GetVaccinationByIdAsync(Guid id);
-        Task<List<Vaccination?>> GetAllAsync();
-        IQueryable<Vaccination> FindBy(Expression<Func<Vaccination, bool>> searchExpression,
-    params Expression<Func<Vaccination, object>>[] includes);
+        public Task<Vaccination?> GetVaccinationByIdAsync(Guid id);
 
-        //UPDATE
-        void Update(Vaccination entity);
-        Task PatchAsync(Guid id, List<PatchModel> patchData);
+        public Task<List<Vaccination?>> GetAllVaccinationsByUserIdAsync(Guid id);
 
-        //DELETE
-        void Remove(Vaccination entity);
-    }
+        public Task PatchVaccinationAsync(Guid id, Vaccination vaccination);
+
+        public Task RemoveVaccinationAsync(Vaccination vaccination);
+
+    }   
 }

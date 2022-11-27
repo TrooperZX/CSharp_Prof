@@ -15,6 +15,6 @@ namespace HealthPlus.DataBase.Entities
         public DateTime DateOfPrescription { get; set; }
         public DateTime DurationOfPrescription { get; set; }
         public string? Note { get; set; }
-        public virtual Medication Medication { get; set; }
+        public Medication Medication { get; set; }
     }
 }

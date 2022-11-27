@@ -557,3 +557,4 @@ C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlusApp\bin\Debug\net6.
 C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlusApp\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlusApp\bin\Debug\net6.0\HealthPlus.Data.CQS.dll
 C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlusApp\bin\Debug\net6.0\HealthPlus.Data.CQS.pdb
+C:\Users\Troop\source\repos\CSharp_Prof\HealthPlus\HealthPlusApp\bin\Debug\net6.0\HtmlAgilityPack.dll

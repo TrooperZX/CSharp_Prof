@@ -22,11 +22,10 @@ namespace HealthPlus.Data.Repositories
         }
         
 
-        public async Task<List<DocAppointment?>> GetAllDocAppointmentsAsync()
+        public async Task<List<DocAppointment?>> GetAllDocAppointmentsByUserIdAsync(Guid id)
         {
-            return await _database.DocAppointments.ToListAsync();
+            return await _database.DocAppointments.Where(d => d.UserId.Equals(id)).ToListAsync();
         }
-        
         public async Task CreateDocAppointmentAsync(DocAppointment docAppointment)
         {
             await _database.DocAppointments.AddAsync(docAppointment);
@@ -44,7 +43,8 @@ namespace HealthPlus.Data.Repositories
 
         public async Task UpdateDocAppointment(Guid id, DocAppointment docAppointment)
         {
-            var entity = await _database.DocAppointments.FirstOrDefaultAsync(docAppointment => docAppointment.Id.Equals(id));
+            var entity = await _database.DocAppointments
+                .FirstOrDefaultAsync(docAppointment => docAppointment.Id.Equals(id));
 
             if (entity != null)
             {
@@ -58,9 +58,3 @@ namespace HealthPlus.Data.Repositories
         }
     }
 }
-//11public Task<DocAppointment?> GetDocAppointmentByIdAsync(Guid id);
-//22public Task<List<DocAppointment?>> GetAllDocAppointmentsAsync();
-//public Task CreateDocAppointmentAsync(DocAppointment docAppointment);
-//44public Task AddDocAppointmentsAsync(IEnumerable<DocAppointment> docAppointment);
-//55public Task RemoveDocAppointmentAsync(DocAppointment docAppointment);
-//66public Task UpdateDocAppointmentAsync(Guid id, DocAppointment docAppointment);
